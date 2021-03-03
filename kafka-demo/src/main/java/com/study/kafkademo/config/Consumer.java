@@ -1,4 +1,4 @@
-package com.study.jingqiduizhangkafka.config;
+package com.study.kafkademo.config;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;

@@ -1,4 +1,4 @@
-package com.study.jingqiduizhangkafka.entity;
+package com.study.kafkademo.entity;
 
 public class User {
 

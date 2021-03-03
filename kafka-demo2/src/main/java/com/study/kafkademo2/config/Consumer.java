@@ -1,4 +1,4 @@
-package com.study.kafkademo.config;
+package com.study.kafkademo2.config;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;
@@ -16,7 +16,7 @@ public class Consumer {
         Optional<Object> kafkaMassage = Optional.ofNullable(consumerRecord.value());
         if(kafkaMassage.isPresent()){
             Object o = kafkaMassage.get();
-            System.out.println(o);
+            System.out.println("消费数据： " + o);
         }
 
     }
